@@ -1,7 +1,8 @@
 import './App.scss';
+import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return <UpcomingEvents />;
 }
 
 export default App;
